@@ -1,5 +1,6 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
+import CodeIcon from '@material-ui/icons/Code';
 
 
 const useStyles = makeStyles(theme => ({
@@ -38,12 +39,15 @@ export default function Main() {
   const classes = useStyles();
 
   return(
+
     <div className={classes.container}>
       <h1>Heather Zurek</h1>
-      <h2>Software Developer</h2>
+      <h2><CodeIcon fontSize='medium'/> Software Developer </h2>
+
       <p>Portfolio coming soon.</p>
       <p>Checkout my <a href="http://www.github.com/heatherzurek">Github</a> for current projects,</p>
       <p>follow me on <a href="https://twitter.com/sleepywifi">Twitter</a>, or view my <a href="#">Resume</a></p>
+
     </div>
   );
 }
