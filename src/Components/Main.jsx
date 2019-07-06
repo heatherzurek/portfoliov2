@@ -10,23 +10,24 @@ const useStyles = makeStyles(theme => ({
     backgroundColor: '#02152e',
     color: '#319990',
     '& h1': {
-      fontSize: '90px',
+      fontSize: '82px',
       fontWeight: '550',
       marginBottom: '-10px',
       marginTop: '-10px',
 
     },
     '& h2': {
-      fontSize: '32px',
+      fontSize: '40px',
       marginTop: '-10px',
     },
     '& p': {
       fontSize: '14px',
+      fontWeight: '600',
       // marginTop: '-1px',
     },
     '& a': {
         textDecoration: 'none',
-        fontWeight: 'bold',
+        fontWeight: 'bolder',
         fontSize: '14px',
         color: '#f0d24d',
         '&:hover': {
