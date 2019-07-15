@@ -6,7 +6,9 @@ import Avatar from '@material-ui/core/Avatar';
 
 const useStyles = makeStyles(theme => ({
   container: {
-    margin: '0 auto',
+    flex: 'display',
+    flexDirection: 'column',
+    textAlign: 'right',
     backgroundColor: '#02152e',
     color: '#319990',
     '& h1': {
@@ -21,8 +23,9 @@ const useStyles = makeStyles(theme => ({
       marginTop: '-10px',
     },
     '& p': {
+      marginTop: '-10px',
       fontSize: '14px',
-      fontWeight: '600',
+      fontWeight: 'bolder',
       // marginTop: '-1px',
     },
     '& a': {
@@ -36,9 +39,9 @@ const useStyles = makeStyles(theme => ({
     }
 },
 bigAvatar: {
-  // margin: 10,
-  width: 140,
-  height: 140,
+  left: 400,
+  width: 160,
+  height: 160,
   margin: '0 auto',
 },
   }));
@@ -49,13 +52,13 @@ export default function Main() {
   return(
 
     <div className={classes.container}>
-      <Avatar alt="Heather Zurek" src="https://i.etsystatic.com/iusa/74a4fd/47949351/iusa_400x400.47949351_tu1w.jpg?version=0" className={classes.bigAvatar} />
-
+      <Avatar alt="Heather Zurek" src="https://avatars1.githubusercontent.com/u/48393327?s=400&u=b11c331171ab6d449d6d0c5b00155cf1f5ce0553&v=4" className={classes.bigAvatar} />
       <h1>Heather Zurek</h1>
       <h2> Software Developer </h2>
       <p>Portfolio coming soon.</p>
-      <p>Checkout my <a href="http://www.github.com/heatherzurek">Github</a> for current projects,</p>
-      <p>follow me on <a href="https://twitter.com/sleepywifi">Twitter</a>, or <a href="mailto:heather.zurek@gmail.com">Email me</a>.</p>
+      <p>Checkout my <a href="http://www.github.com/heatherzurek">Github</a> for projects,</p>
+      <p>follow me on <a href="https://twitter.com/sleepywifi">Twitter</a>,</p>
+      <p>or <a href="mailto:heather.zurek@gmail.com">Email me</a>.</p>
 
     </div>
   );
