@@ -54,7 +54,7 @@ export default function Main() {
     <div className={classes.container}>
       <Avatar alt="Heather Zurek" src="https://avatars1.githubusercontent.com/u/48393327?s=400&u=b11c331171ab6d449d6d0c5b00155cf1f5ce0553&v=4" className={classes.bigAvatar} />
       <h1>Heather Zurek</h1>
-      <h2> Software Developer </h2>
+      <h2>Software Developer </h2>
       <p>Portfolio coming soon.</p>
       <p>Checkout my <a href="http://www.github.com/heatherzurek">Github</a> for projects,</p>
       <p>follow me on <a href="https://twitter.com/sleepywifi">Twitter</a>,</p>
