@@ -2,6 +2,8 @@
 
 body {
   background-color: #238694;
+  background-position: 100vh;
+  background-repeat: none;
   font-family: 'Roboto', sans-serif;
 
   margin: 0;
@@ -13,11 +15,20 @@ body {
 }
 
 h1, h2, p {
-    color: #dfd25e;
+    color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.mainDiv {
+  padding: 10px;
+}
+
+a {
+  color: #dfd25e;
+  font-weight: bold;
 }
