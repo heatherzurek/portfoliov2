@@ -32,3 +32,12 @@ a {
   color: #dfd25e;
   font-weight: bold;
 }
+
+img {
+  width: 350px;
+  height: 600px;
+}
+
+.projectsDiv {
+  background-color: #272727;
+}
