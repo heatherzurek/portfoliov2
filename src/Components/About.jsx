@@ -6,6 +6,7 @@ export default function About() {
   return(
     <div>
       <h2>Software Developer </h2>
+      <br></br>
       <p>Portfolio coming soon.</p>
       <p>Checkout my <a href="http://www.github.com/heatherzurek">Github</a>, view my <Link to="/projects">Projects</Link>,</p>
       <p>follow me on <a href="https://twitter.com/sleepywifi">Twitter</a>,</p>
